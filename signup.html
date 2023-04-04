@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>signup</title>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!--LOGIN -->
+    <div class="container">
+      <h2>Sign Up</h2>
+      <input type="text" placeholder="First name" id="firstname"/>
+      <input type="text" placeholder="Last name" id="lastname"/>
+      <input type="e-mail" placeholder="E-mail" id="email"/>
+      <input type="password" placeholder="Password" id="password"/>
+      <button id="submit">Submit</button>
+      <p id="message-ref">Created Successfully!!!</p>
+    </div>
+   <!--       SLIDE NAVIGATION BAR            -->
+    <div class="hamburger-menu" >
+      <input id="menu_toggle" type="checkbox"/>
+      <label class="menu_btn" for="menu_toggle">
+         <span></span>
+      </label>
+      <ul class="menu_box">
+        <div class="slide">
+          <li><a class="menu_item" href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+          <li><a class="menu_item" href="login.html"><i class="fa-solid fa-right-to-bracket"></i>Login</a></li>
+          <li><a class="menu_item" href="signup.html"><i class="fa-solid fa-user-plus"></i>Sign up</a></li>
+          <li><a class="menu_item" href="about.html"><i class="fa-solid fa-circle-info"></i>About</a></li>
+          <li><a class="menu_item" href="contact.html"><i class="fa-solid fa-phone"></i>Contact</a></li>
+        </div>
+      </ul>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>
